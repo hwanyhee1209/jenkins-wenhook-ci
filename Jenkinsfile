@@ -4,10 +4,10 @@ pipeline {
         stage('Test Trigger') {
             steps {
                
-                sh '''           
+                      
                 
                      echo 'GitHub Webhook triggered successfully!'
-                '''
+                
             }
         }
     }
